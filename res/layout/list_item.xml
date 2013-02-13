@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:descendantFocusability="blocksDescendants"
+                  >
+
+        <TextView
+                android:id="@+id/row_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:singleLine="true"
+                />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:id="@+id/toolbar"
+            android:layout_marginBottom="-50dp"
+            android:visibility="gone"
+            android:layout_height="50dip"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:descendantFocusability="blocksDescendants"
+            >
+
+        <dk.dorland.ExpandableToolbar.CustomButton
+                android:id="@+id/button1"
+                android:layout_height="40dip"
+                android:layout_width="90dp"
+                android:text="@string/edit"
+                android:layout_weight="1"
+                />
+
+        <dk.dorland.ExpandableToolbar.CustomButton
+                android:id="@+id/button2"
+                android:layout_height="40dip"
+                android:layout_width="90dp"
+                android:text="@string/copy"
+                android:layout_weight="1"
+                />
+
+        <dk.dorland.ExpandableToolbar.CustomButton
+                android:id="@+id/button3"
+                android:layout_height="40dip"
+                android:layout_width="90dp"
+                android:text="@string/delete"
+                android:layout_weight="1"
+                />
+    </LinearLayout>
+
+</LinearLayout>

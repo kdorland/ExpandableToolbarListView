@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Expandable Toolbar Sample</string>
+    <string name="delete">Delete</string>
+    <string name="copy">Copy</string>
+    <string name="edit">Edit</string>
+</resources>
